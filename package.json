@@ -1,5 +1,8 @@
 {
   "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.3",
     "webpack-cli": "^5.0.1",
@@ -7,5 +10,8 @@
   },
   "scripts": {
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "@eslint/create-config": "^0.4.2"
   }
 }
