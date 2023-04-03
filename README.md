@@ -6,7 +6,8 @@ npm install
 
 ### Запуск webpack-dev-server'a
 ```bash
-npx webpack-dev-server
+npm run dev
+npm run prod
 ```
 
 ### Запуск json-server'a

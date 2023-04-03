@@ -9,6 +9,8 @@
     "webpack-dev-server": "^4.13.1"
   },
   "scripts": {
+    "dev": "webpack-dev-server --config config/webpack.dev.js --open",
+    "prod": "webpack-dev-server --config config/webpack.prod.js --open",
     "prepare": "husky install"
   },
   "dependencies": {
